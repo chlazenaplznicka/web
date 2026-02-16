@@ -3,9 +3,7 @@
   "skills": [
     "HTML",
     "CSS",
-    "JavaScript",
-    "Git",
-    "GitHub"
+    "C#"
   ],
   "interests": [
     "Web development",
@@ -17,7 +15,19 @@
     {
       "title": "Osobní web",
       "description": "Dynamický profil na GitHub Pages",
-      "link": "https://tvoje-jmeno.github.io/"
+      "link": "https://github.com/chlazenaplznicka"
+    }
+  ],
+  "contacts": [
+    {
+      "type": "Email",
+      "value": "filip.rambo333@gmail.com",
+      "link": "mailto:filip.rambo333@gmail.com"
+    },
+    {
+      "type": "GitHub",
+      "value": "github.com/chlazenaplznicka",
+      "link": "https://github.com/chlazenaplznicka"
     }
   ]
 }

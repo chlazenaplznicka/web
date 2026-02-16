@@ -27,12 +27,26 @@ fetch("profile.json")
         if (data.projects) {
             data.projects.forEach(project => {
                 const div = document.createElement("div");
+                div.className = "project-card";
                 div.innerHTML = `
                     <h3>${project.title}</h3>
                     <p>${project.description}</p>
                     <a href="${project.link}" target="_blank">Otevřít projekt</a>
                 `;
                 projectsSection.appendChild(div);
+            });
+        }
+
+        // Kontakty
+        const contactsSection = document.querySelector("#contacts");
+        if (data.contacts) {
+            data.contacts.forEach(contact => {
+                const div = document.createElement("div");
+                div.className = "contact-item";
+                div.innerHTML = `
+                    <strong>${contact.type}:</strong> <a href="${contact.link}" target="_blank">${contact.value}</a>
+                `;
+                contactsSection.appendChild(div);
             });
         }
     })
