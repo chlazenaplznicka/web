@@ -1,0 +1,23 @@
+{
+  "name": "Filip Rambousek",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "GitHub"
+  ],
+  "interests": [
+    "Web development",
+    "Programování",
+    "Technologie",
+    "AI nástroje"
+  ],
+  "projects": [
+    {
+      "title": "Osobní web",
+      "description": "Dynamický profil na GitHub Pages",
+      "link": "https://tvoje-jmeno.github.io/"
+    }
+  ]
+}
