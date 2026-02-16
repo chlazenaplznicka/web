@@ -50,6 +50,6 @@ fetch("profile.json")
             });
         }
     })
-    .catch(error => {
+    .catch(error > {
         console.error("Chyba při načítání JSON:", error);
     });
